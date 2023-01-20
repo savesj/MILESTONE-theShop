@@ -1,8 +1,15 @@
 import React from 'react'
+import Contact from './Contact';
+import Features from './Features';
+import Pricing from './Pricing';
+import About from './About';
+import Services from './Services';
+import Navbar from './Navbar';
 
 const Home=() => {
   return (
     <div>
+        <Navbar/>
         <section id='home'>
             <div className="container-fluid">
                 <div className="row d-flex justify-content-start">
@@ -17,6 +24,11 @@ const Home=() => {
                 </div>
             </div>
         </section>
+        <Services/>
+        <Features/>
+        <Pricing/>
+        <About/>
+        <Contact/>
     </div>
   );
 };

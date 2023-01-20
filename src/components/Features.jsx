@@ -15,11 +15,11 @@ function Features() {
           </div>
           <div className="row mt-5">
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-clipboard-check fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Digital Inspection</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-clipboard-check fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">Digital Inspection</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -27,11 +27,11 @@ function Features() {
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-receipt fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Estimates</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-receipt fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">Estimates</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -39,11 +39,11 @@ function Features() {
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-calendar-date fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Schelduling</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-calendar-date fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">Schelduling</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -53,11 +53,11 @@ function Features() {
           </div>
           <div className="row mt-5">
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-graph-up-arrow fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Reports</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-graph-up-arrow fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">Reports</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -65,11 +65,11 @@ function Features() {
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-kanban fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">WorkFlow Board</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-kanban fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">WorkFlow Board</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
@@ -77,11 +77,11 @@ function Features() {
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card p-3 border-0 ">
-                <div class="card-body">
-                    <i class="bi bi-chat-right-dots fa-4x mb-4 text-primary"></i>
-                  <h5 class="card-title mb-3 fs-4 fw-bold">Live Chat</h5>
-                  <p class="card-text lead">
+              <div className="card p-3 border-0 ">
+                <div className="card-body">
+                    <i className="bi bi-chat-right-dots fa-4x mb-4 text-primary"></i>
+                  <h5 className="card-title mb-3 fs-4 fw-bold">Live Chat</h5>
+                  <p className="card-text lead">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>

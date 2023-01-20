@@ -1,108 +1,91 @@
 import React from "react";
 
+
 function Login() {
   return (
     <div>
-      <section id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-m-6 text-black">
-              <div class="px-5-5">
-                <i class="bi bi-behance mb-4 text-primary "></i>
-                <span class="h1 fw-bold mb-0">Logo</span>
-              </div>
-              <div className="row">
-                <div className="col-m-6">
-                  <form>
-                    <div class="form-outline mb-3">
-                      <input
-                        type="email"
-                        id="form2Example1"
-                        class="form-control"
-                      />
-                      <label class="form-label" for="form2Example1">
-                        Email address
-                      </label>
-                    </div>
+      <section id="login">
+  <div class="container-fluid py-5">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-md-9 col-lg-6 col-xl-5  py-5">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+          class="img-fluid" alt="Sample image"/>
+      </div>
+      <div class="col-md-8 col-6 col-xl-4 offset-xl-1">
+        <form>
+          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+            <p class="lead fw-normal mb-0 me-3  py-5">Sign in with</p>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-facebook-f"></i>
+            </button>
 
-                    <div class="form-outline mb-3">
-                      <input
-                        type="password"
-                        id="form2Example2"
-                        class="form-control"
-                      />
-                      <label class="form-label" for="form2Example2">
-                        Password
-                      </label>
-                    </div>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-twitter"></i>
+            </button>
 
-                    <div class="row mb-4">
-                      <div class="col d-flex justify-content-center">
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value=""
-                            id="form2Example31"
-                            checked
-                          />
-                          <label class="form-check-label" for="form2Example31">
-                            {" "}
-                            Remember me{" "}
-                          </label>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <a href="#!">Forgot password?</a>
-                      </div>
-                    </div>
-
-                    <button
-                      type="button"
-                      class="btn btn-primary btn-block mb-4"
-                    >
-                      Sign in
-                    </button>
-
-                    <div class="text-center">
-                      <p>
-                        Not a member? <a href="#!">Register</a>
-                      </p>
-                      <p>or sign up with:</p>
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-facebook-f"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </button>
-
-                      <button
-                        type="button"
-                        class="btn btn-link btn-floating mx-1"
-                      >
-                        <i class="fab fa-github"></i>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
+            <button type="button" class="btn btn-primary btn-floating mx-1">
+              <i class="fab fa-linkedin-in"></i>
+            </button>
           </div>
-        </div>
+
+          <div class="divider d-flex align-items-center my-4">
+            <p class="text-center fw-bold mx-3 mb-0">Or</p>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="email" id="form3Example3" class="form-control form-control-lg"
+              placeholder="Enter a valid email address" />
+            <label class="form-label" for="form3Example3">Email address</label>
+          </div>
+
+          <div class="form-outline mb-3">
+            <input type="password" id="form3Example4" class="form-control form-control-lg"
+              placeholder="Enter password" />
+            <label class="form-label" for="form3Example4">Password</label>
+          </div>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="form-check mb-0">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+              <label class="form-check-label" for="form2Example3">
+                Remember me
+              </label>
+            </div>
+            <a href="#!" class="text-body">Forgot password?</a>
+          </div>
+
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <button type="button" class="btn btn-primary btn-lg">Login</button>
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                class="link-danger">Register</a></p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+    <div class="text-white mb-3 mb-md-0 ">
+      Copyright © 2023. All rights reserved.
+    </div>
+
+    <div>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#!" class="text-white me-4">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="#!" class="text-white">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+
       </section>
     </div>
   );
