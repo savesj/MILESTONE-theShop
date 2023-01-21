@@ -250,7 +250,7 @@ const Dashboard = () => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="#">
+                  <NavLink className="nav-link" to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"

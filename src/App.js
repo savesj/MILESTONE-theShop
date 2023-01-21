@@ -11,6 +11,7 @@ import Login from './components/Login';
 import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
+import Logout from './components/Logout';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path="/logout" element={<Logout/>} />
       </Routes>
       </Router>
     </>
