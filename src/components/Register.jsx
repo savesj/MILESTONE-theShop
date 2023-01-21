@@ -60,16 +60,16 @@ const handleSubmit = async(event) =>{
   return (
     <div>
     <Navbar/>
-  <section id="registration" class="background-radial-gradient overflow-hidden">
+  <section id="registration" className="background-radial-gradient overflow-hidden">
 
-  <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-    <div class="row gx-lg-5 align-items-center mb-5">
-      <div class="col-lg-6 mb-5 mb-lg-0">
-        <h1 class="my-5 display-5 fw-bold ls-tight">
+  <div className="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+    <div className="row gx-lg-5 align-items-center mb-5">
+      <div className="col-lg-6 mb-5 mb-lg-0">
+        <h1 className="my-5 display-5 fw-bold ls-tight">
           The best offer <br />
           <span>for your business</span>
         </h1>
-        <p class="mb-4 opacity-70">
+        <p className="mb-4 opacity-70">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
           Temporibus, expedita iusto veniam atque, magni tempora mollitia
           dolorum consequatur nulla, neque debitis eos reprehenderit quasi
@@ -77,88 +77,88 @@ const handleSubmit = async(event) =>{
         </p>
       </div>
 
-      <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-        <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+      <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
+        <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
+        <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
 
-        <div class="card bg-glass">
-          <div class="card-body px-4 py-5 px-md-5">
+        <div className="card bg-glass">
+          <div className="card-body px-4 py-5 px-md-5">
             <form onSubmit={handleSubmit} method="POST">
  
-              <div class="row">
-                {/* <div class="col-md-6 mb-4">
-                  <div class="form-outline">
+              <div className="row">
+                {/* <div className="col-md-6 mb-4">
+                  <div className="form-outline">
                     
-                    <input type="text" id="form3Example1" class="form-control" />
-                    <label class="form-label" for="form3Example1">Name</label>
+                    <input type="text" id="form3Example1" className="form-control" />
+                    <label className="form-label" for="form3Example1">Name</label>
                   </div>
                 </div> */}
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
+                <div className="col-md-6 mb-4">
+                  <div className="form-outline">
                     <input 
                     type="text" 
                     id="form3Example2" 
-                    class="form-control"
+                    className="form-control"
                     name="username"
                     value={user.username}
                     onChange={handleInput}
                      />
-                    <label class="form-label" for="form3Example2">Full Name</label>
+                    <label className="form-label" for="form3Example2">Full Name</label>
                   </div>
                 </div>
               </div>
 
-              <div class="form-outline mb-4">
+              <div className="form-outline mb-4">
                 <input 
                     type="email"
                     id="form3Example3" 
-                    class="form-control"
+                    className="form-control"
                     name="email"
                     value={user.email}
                     onChange={handleInput}
                  />
-                <label class="form-label" for="form3Example3">Email address</label>
+                <label className="form-label" for="form3Example3">Email address</label>
               </div>
 
-              <div class="form-outline mb-4">
+              <div className="form-outline mb-4">
                 <input 
                     type="password" 
                     id="form3Example4" 
-                    class="form-control" 
+                    className="form-control" 
                     name="password"
                     value={user.password}
                     onChange={handleInput}
                     />
-                <label class="form-label" for="form3Example4">Password</label>
+                <label className="form-label" for="form3Example4">Password</label>
               </div>
 
-              <div class="form-check d-flex justify-content-center mb-4">
-                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                <label class="form-check-label" for="form2Example33">
+              <div className="form-check d-flex justify-content-center mb-4">
+                <input className="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                <label className="form-check-label" for="form2Example33">
                   Subscribe to our newsletter
                 </label>
               </div>
 
-              <button type="submit" class="btn btn-primary btn-block mb-4">
+              <button type="submit" className="btn btn-primary btn-block mb-4">
                 Sign up
               </button>
 
-              <div class="text-center">
+              <div className="text-center">
                 <p>or sign up with:</p>
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="bi bi-facebook"></i>
+                <button type="button" className="btn btn-link btn-floating mx-1">
+                  <i className="bi bi-facebook"></i>
                 </button>
 
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="bi bi-google"></i>
+                <button type="button" className="btn btn-link btn-floating mx-1">
+                  <i className="bi bi-google"></i>
                 </button>
 
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="bi bi-twitter"></i>
+                <button type="button" className="btn btn-link btn-floating mx-1">
+                  <i className="bi bi-twitter"></i>
                 </button>
 
-                <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="bi bi-github"></i>
+                <button type="button" className="btn btn-link btn-floating mx-1">
+                  <i className="bi bi-github"></i>
                 </button>
               </div>
             </form>

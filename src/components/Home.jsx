@@ -24,7 +24,7 @@ const Home=() => {
                     </div>
                     <div className="col-md-6 ">
                     <div className="img">
-                        <img id='dashboard' src="/assets/dashboardMain.png" alt="dashboardM" class="img-flui"/>
+                        <img id='dashboard' src="/assets/dashboardMain.png" alt="dashboardM" className="img-flui"/>
                     </div>
                     </div>
                 </div>
