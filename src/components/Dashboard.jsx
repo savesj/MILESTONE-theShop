@@ -1,10 +1,10 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
-    return (
-        <div>
-            <div className="container-fluid mb-5">
+  return (
+    <div>
+      <div className="container-fluid mb-5">
         <div className="row">
           <nav
             id="sidebarMenu"
@@ -13,7 +13,11 @@ const Dashboard = () => {
             <div className="position-sticky pt-3">
               <ul className="nav flex-column">
                 <li className="nav-item">
-                  <NavLink className="nav-link active" aria-current="page" to="#">
+                  <NavLink
+                    className="nav-link active"
+                    aria-current="page"
+                    to="#"
+                  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -72,29 +76,6 @@ const Dashboard = () => {
                       <circle cx="9" cy="21" r="1"></circle>
                       <circle cx="20" cy="21" r="1"></circle>
                       <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-                    </svg>
-                    Products
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink className="nav-link" to="#">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      className="feather feather-users"
-                      aria-hidden="true"
-                    >
-                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
-                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                     Customers
                   </NavLink>
@@ -268,6 +249,28 @@ const Dashboard = () => {
                     Year-end sale
                   </NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-box-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                      />
+                    </svg>
+                    Logout
+                  </NavLink>
+                </li>
               </ul>
             </div>
           </nav>
@@ -332,16 +335,16 @@ const Dashboard = () => {
               </div>
             </div>
 
-            <h2>Section title</h2>
+            <h2>COSTUMERS</h2>
             <div className="table-responsive">
               <table className="table table-striped table-sm">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
-                    <th scope="col">Header</th>
+                    <th scope="col">#INVOICE</th>
+                    <th scope="col">#ID</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">VIN</th>
+                    <th scope="col">CAR MODEL</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -463,8 +466,8 @@ const Dashboard = () => {
           </main>
         </div>
       </div>
-        </div>
-    );
-}
+    </div>
+  );
+};
 
 export default Dashboard;

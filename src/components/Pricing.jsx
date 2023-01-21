@@ -16,8 +16,8 @@ function Pricing() {
           <div className="row mt-5">
             <div className="col-md-4">
               <div className="card p-3 border-1">
-                <img src="..." class="card-img-top" alt="..." />
-                <div className="card-body">
+                
+                <div className="card-body" >
                   <h5 className="card-title mb-3 fs-4 fw-bold text-center">Basic</h5>
                   <p className="card-text lead">
                     Some quick example text to build on the card title and make
@@ -28,23 +28,18 @@ function Pricing() {
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> An item</li>
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A second item</li>
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
-                  <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
-                  <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
-                  <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
+                  <li className="list-group-item"><i className="bi bi-x-circle-fill text-primary"></i> A third item</li>
+                  <li className="list-group-item"><i className="bi bi-x-circle-fill text-primary"></i> A third item</li>
+                  <li className="list-group-item"><i className="bi bi-x-circle-fill text-primary"></i> A third item</li>
                 </ul>
                 <div className="card-body">
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
-                  </a>
+                 <a href="/#contact" className="nav-item btn btn-outline-primary ms-auto px-4 rounded-pill" role="button">Choose Plan</a>
                 </div>
               </div>
             </div>
              <div className="col-md-4">
               <div className="card p-3 border-1">
-                <img src="..." className="card-img-top" alt="..." />
+                
                 <div className="card-body">
                   <h5 className="card-title mb-3 fs-4 fw-bold text-center">Gold</h5>
                   <p className="card-text lead">
@@ -57,23 +52,18 @@ function Pricing() {
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A second item</li>
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
-                  <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
-                  <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>  
+                  <li className="list-group-item"><i className="bi bi-x-circle-fill text-primary"></i> A third item</li>
+                  <li className="list-group-item"><i className="bi bi-x-circle-fill text-primary"></i> A third item</li>  
                 </ul>
                 <div className="card-body">
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
-                  </a>
+                  <a href="/#contact" className="nav-item btn btn-outline-primary ms-auto px-4 rounded-pill" role="button">Choose Plan</a>
                 </div>
               </div>
             </div>
-             <div className="col-md-4">
+             <div className="col-md-4 card border-1r" id="bestplan">
               <div className="card p-3 border-1">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
+                
+                <div className="card-body" >
                   <h5 className="card-title mb-3 fs-4 fw-bold text-center">Platinum</h5>
                   <p className="card-text lead">
                     Some quick example text to build on the card title and make
@@ -88,13 +78,8 @@ function Pricing() {
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
                   <li className="list-group-item"><i className="bi bi-check-circle text-primary"></i> A third item</li>
                 </ul>
-                <div className="card-body">
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
-                  </a>
+                <div className="card-body align">
+                  <a href="/#contact" className="btn btn-primary ms-auto px-4 rounded-pill" role="button">Choose Plan</a>
                 </div>
               </div>
             </div>

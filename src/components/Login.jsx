@@ -1,30 +1,83 @@
-import React from "react";
+import React, { useState } from "react";
+import Footer from "./Footer";
 
 
-function Login() {
+
+const Login = () => {
+
+    const [user, setUser] = useState({
+      email : "",
+      password : ""
+});
+
+//Handle Input
+
+const handleChange = (event) =>{
+  let name = event.target.name
+  let value = event.target.value
+
+   setUser({...user, [name]:value});
+}
+
+//handle login
+
+const handleSubmit = async (event) =>{
+  event.preventDefault();
+  const{email, password} = user;
+
+  try{
+    const res = await fetch('login', {
+      method : "POST",
+      body : JSON.stringify({
+        email, password
+      }),
+      headers : {
+        "Content-Type" : "application/json"
+      },
+      
+    });
+
+    const json = res.json()
+    if(res.status === 400 || !res){
+      console.log(json)
+      window.alert("Invalid Credentials")
+    }else{
+      window.alert("Logged In");
+      console.log(json);
+      window.location.href='/dashboard';
+
+    }
+
+  } catch(error) {
+    console.log(error);
+
+  }
+}
+
   return (
     <div>
       <section id="login">
-  <div class="container-fluid py-5">
-    <div class="row d-flex justify-content-center align-items-center">
-      <div class="col-md-9 col-lg-6 col-xl-5  py-5">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-          class="img-fluid" alt="Sample image"/>
-      </div>
-      <div class="col-md-8 col-6 col-xl-4 offset-xl-1">
-        <form>
-          <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+        <div class="container-fluid py-5">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-9 col-lg-6 col-xl-5  py-5">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                class="img-fluid" alt="Sample image"/>
+            </div>
+          <div class="col-md-8 col-6 col-xl-4 offset-xl-1">
+            <form onSubmit={handleSubmit} method="POST">
+
+            <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3  py-5">Sign in with</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-facebook-f"></i>
+              <i class="bi bi-facebook"></i>
             </button>
 
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-twitter"></i>
+              <i class="bi bi-twitter"></i>
             </button>
 
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fab fa-linkedin-in"></i>
+              <i class="bi bi-linkedin"></i>
             </button>
           </div>
 
@@ -33,14 +86,27 @@ function Login() {
           </div>
 
           <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
-              placeholder="Enter a valid email address" />
+            
+            <input 
+            type="email" 
+            id="form3Example3" 
+            className="form-control form-control-lg"
+            name="email"
+            value={user.email}
+            onChange={handleChange}
+            />
+
             <label class="form-label" for="form3Example3">Email address</label>
           </div>
 
           <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter password" />
+            <input 
+            type="password" 
+            id="form3Example4" 
+            className="form-control form-control-lg"
+            name="password"
+            value={user.password}
+            onChange={handleChange} />
             <label class="form-label" for="form3Example4">Password</label>
           </div>
 
@@ -56,7 +122,7 @@ function Login() {
 
           <div class="text-center text-lg-start mt-4 pt-2">
             <button type="button" class="btn btn-primary btn-lg">Login</button>
-            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/register"
                 class="link-danger">Register</a></p>
           </div>
 
@@ -64,30 +130,10 @@ function Login() {
       </div>
     </div>
   </div>
-
-  <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-    <div class="text-white mb-3 mb-md-0 ">
-      Copyright © 2023. All rights reserved.
+    </section>
+    <Footer/>
     </div>
-
-    <div>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="#!" class="text-white">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-  </div>
-
-      </section>
-    </div>
+    
   );
 }
 

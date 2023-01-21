@@ -46,7 +46,7 @@ const handleSubmit = async(event) =>{
             console.log(json)
             window.alert("Use different credentials. Already in use")
         }else{
-            window.alert("Sucessfull Registration ")
+            window.alert("Sucessfull Registration ");
             console.log(json);
             window.History.pushState('/login');
         }
@@ -60,7 +60,7 @@ const handleSubmit = async(event) =>{
   return (
     <div>
     <Navbar/>
-            <section class="background-radial-gradient overflow-hidden">
+  <section id="registration" class="background-radial-gradient overflow-hidden">
 
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5">
@@ -146,19 +146,19 @@ const handleSubmit = async(event) =>{
               <div class="text-center">
                 <p>or sign up with:</p>
                 <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="fab fa-facebook-f"></i>
+                  <i class="bi bi-facebook"></i>
                 </button>
 
                 <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="fab fa-google"></i>
+                  <i class="bi bi-google"></i>
                 </button>
 
                 <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="fab fa-twitter"></i>
+                  <i class="bi bi-twitter"></i>
                 </button>
 
                 <button type="button" class="btn btn-link btn-floating mx-1">
-                  <i class="fab fa-github"></i>
+                  <i class="bi bi-github"></i>
                 </button>
               </div>
             </form>

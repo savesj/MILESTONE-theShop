@@ -16,7 +16,7 @@ function Contact() {
           </div>
           <div className="row">
             <div className="col-md-6">
-              <img src="/assets/contact.jpg" alt="Contact" className="w-75" />
+              <img src="/assets/contacti.jpg" alt="Contact" className="w-75" />
             </div>
             <div className="col-md-6">
               <form>
@@ -28,7 +28,7 @@ function Contact() {
                     type="text"
                     className="form-control"
                     id="name"
-                    placeholder="John Smith"
+                    placeholder="David Morales"
                     name="name"
                   />
                 </div>

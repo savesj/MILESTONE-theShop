@@ -17,7 +17,7 @@ function Services() {
                         <h1 className="display-6"><b>Heavy Duty Repair</b></h1>
                         <h1 className="display-6"><b>Wrap and Detail</b></h1>
                         <h1 className="display-6"><b>Service Repair</b></h1>
-                        <button className="btn btn-primary rounded-pill px-4 py-2">Get Started</button>
+                        <a href="/#contact" className="btn btn-primary rounded-pill px-4 py-2">Get Started</a>
                     </div>
                 </div>
 

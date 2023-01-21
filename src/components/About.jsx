@@ -7,7 +7,7 @@ function About() {
         <div className="container my-5 py-5">
           <div className="row">
             <div className="col-12">
-              <h3 className="fs-5 text-center">Pricing</h3>
+              <h3 className="fs-5 text-center">Reviews</h3>
               <h1 className="display-6 text-center mb-4">
                 <b>What our Costumers think matters.</b>
               </h1>
@@ -42,23 +42,23 @@ function About() {
                   <h6 className="font-weight-bold my-3">Founder at ET Company</h6>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star-half-alt fa-sm text-info"></i>
+                      <i className="bi bi-star-fill-half-alt fa-sm text-info"></i>
                     </li>
                   </ul>
                   <p className="mb-2">
-                    <i className="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit
+                    <i className="bi bi-quote pe-2"></i>Lorem ipsum dolor sit
                     amet, consectetur adipisicing elit. Quod eos id officiis hic
                     tenetur quae quaerat ad velit ab hic tenetur.
                   </p>
@@ -82,23 +82,23 @@ function About() {
                   </h6>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                   </ul>
                   <p className="mb-2">
-                    <i className="fas fa-quote-left pe-2"></i>Autem, totam debitis
+                    <i className="bi bi-quote pe-2"></i>Autem, totam debitis
                     suscipit saepe sapiente magnam officiis quaerat
                     necessitatibus odio assumenda perferendis labore laboriosam.
                   </p>
@@ -122,23 +122,23 @@ function About() {
                   </h6>
                   <ul className="list-unstyled d-flex justify-content-center">
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="fas fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                     <li>
-                      <i className="far fa-star fa-sm text-info"></i>
+                      <i className="bi bi-star-fill fa-sm text-info"></i>
                     </li>
                   </ul>
                   <p className="mb-2">
-                    <i className="fas fa-quote-left pe-2"></i>Cras sit amet nibh
+                    <i className="bi bi-quote pe-2"></i>Cras sit amet nibh
                     libero, in gravida nulla metus scelerisque ante sollicitudin
                     commodo cras purus odio, vestibulum in tempus viverra
                     turpis.
